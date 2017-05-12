@@ -60,6 +60,7 @@ canvas {
 #clear-btn {
 	padding-top: 0px;
 	padding-bottom: 0px;
+	width: 75px;
 }
 
 #clear-btn svg {
@@ -133,7 +134,7 @@ canvas {
 	#thin-pen, #normal-pen, #thick-pen {
 		display: inline-block;
 		margin: 15px;
-		width: 25%;
+		width: 22%;
 	}
 
 	#clear-btn svg {
@@ -142,8 +143,13 @@ canvas {
 		width: 75px;
 	}
 
+	#clear-btn {
+		width: 75%;
+	}
+
 	canvas {
-		max-width: 100%;
+		max-width: 85%;
+		height: auto;
 	}
 
 	#save-drawing {
